@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-desktop">
+            <ul class="ul-contacto">
+                <li><a class="link" href="index.html">Inicio</a></li>
+                <li><a class="link" href="index.html#servicios">Servicios</a></li>
+                <li><a class="link" href="index.html#clientes">Clientes</a></li>                
+            </ul>
+        </nav class="nav-desktop">
+
+        <nav class="nav-mobile">
+            <img class="sandwich" src="./img/sandwich.png" alt="">
+                <ul class="list-mobile hide">
+                    <li><a href="index.html" class="link-mobile">Inicio</a></li>
+                    <li><a href="index.html#servicios" class="link-mobile">Servicios</a></li>
+                    <li><a href="index.html#clientes" class="link-mobile">Clientes</a></li>
+                </ul>
+            </img>
+        </nav>
+    </header>
+    <div class="spacer" id="spacer"></div>
+    <div class="mobile-img">
+        
+    </div>
+    <main class="contacto">
+        <div class="contacto-top">
+            <h1>Contacto</h1>
+            <div>
+                <img src="./img/mailIcon.png" alt="">
+                <p>entrenamientoenventas@hotmail.com.ar</p>
+            </div>
+        </div>
+        <div class="contacto-mid">
+           <div class="contacto-mid-container">
+                <div>
+                    <img src="./img/contactoImg.png" alt="">
+                </div>
+                <div class="form-container">
+                    <form class="form-contacto" action="https://formsubmit.co/juampimendoza@hotmail.com" method="POST">
+                        <label for="">Nombre <br>
+                            <input type="text" name="name" required>
+                        </label><br>
+                        <label for="">Email <br> 
+                            <input type="email" name="email" required>
+                        </label><br>
+                        <label for="">Asunto <br>
+                            <input type="text" name="subject">
+                        </label><br>
+                        <label for="">Mensaje <br>
+                            <textarea name="message"></textarea>
+                        </label><br>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+           </div>
+        </div>
+    </main>
+    <footer>
+        <img src="" alt="">
+        <p>Marcelo Michelli Ramos &copy; 2022 | entrenamientoenventas@hotmail.com</p>
+    </footer>
+    <script src="./nav-mobile.js"></script>
+
+</body>
+</html>

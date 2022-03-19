@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenamiento en Ventas</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav-desktop">
+            <div>
+                <ul>
+                    <li><a class="link" href="#">Inicio</a></li>
+                    <li><a class="link" href="#servicios">Servicios</a></li>
+                    <li><a class="link" href="#clientes">Clientes</a></li>
+                    <li id="contacto"><a href="./contacto.html"><button>Contacto</button></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- nav mobile -->
+        <nav class="nav-mobile">
+            <img class="sandwich" src="./img/sandwich.png" alt="">
+                <ul class="list-mobile hide">
+                    <li><a href="#" class="link-mobile">Inicio</a></li>
+                    <li><a href="#servicios" class="link-mobile">Servicios</a></li>
+                    <li><a href="#clientes" class="link-mobile">Clientes</a></li>
+                    <li><a href="./contacto.html" class="link-mobile">Contacto</a></li>
+                </ul>
+            </img>
+        </nav>
+    </header>
+    <div class="spacer" id="spacer"></div>
+    <main>
+        <!-- Hero -->
+        <section>
+            <div class="hero">
+                <h1>Marcelo Michelli Ramos</h1>
+                <h2>Asesor & Coach en Ventas y at. al Cliente</h2>
+            </div>
+            <div class="container-hero-image">
+               <!--  <img id="hero-image" src="./img/placeholder.png" alt=""> -->
+                <div id="container-socialmedia">
+                    <div class="box-socialmedia">
+                        <a href="https://www.facebook.com/Entrenamiento-en-Ventas-104916277722045" target="_BLANK"><img src="./img/facebookIcon.png" alt=""></a>
+                        <a href="https://www.instagram.com/entrenamientoenventas/" target="_BLANK"><img src="./img/instagramIcon.png" alt=""></a>
+                        <a id="wsp-mobile" href="https://wa.me/543434472104" target="_BLANK"><img src="./img/wspicon2.png" alt=""></a>
+                    </div>
+                </div>
+            </div> 
+        </section>       
+
+        <!-- Servicios -->
+        <section>
+            <div class="servicios" id="servicios">
+                <div class="container-servicios">
+                    <h2>Servicios</h2>
+                    <br>
+                    <br>
+                    <p><b>Capacitación:</b> transmisión de todos los conceptos relevantes que hacen a las ventas y a la atención al cliente.</p><br>
+                    <p><b>Entrenamiento:</b> efectúo el entrenamiento del personal de ventas y de atención al cliente en sus puestos de trabajo.
+                    </p><br>
+                    <p><b>Asesoramiento:</b>
+                        <ul>
+                            <li>Sobre las causas internas de las Empresas que generan pérdidas de ventas y de clientes.</li>
+                            <li>Sobre las acciones que dejan de efectuarse hacia el Mercado con el fin de generar ventas y clientes.</li>
+                        </ul>                    
+                </div>
+                <div class="slideshow-container">
+                    <div class="mySlides fade"><img src="./img/slideshow/1.jpg" alt="" style="width:100%"></div>
+                    <div class="mySlides fade"><img src="./img/slideshow/2.jpg" alt="" style="width:100%"></div>
+                    <div class="mySlides fade"><img src="./img/slideshow/3.jpg" alt="" style="width:100%"></div>
+                    <div class="mySlides fade"><img src="./img/slideshow/4.jpg" alt="" style="width:100%"></div>
+                    <div class="mySlides fade"><img src="./img/slideshow/5.jpg" alt="" style="width:100%"></div>
+                    <div class="mySlides fade"><img src="./img/slideshow/6.jpg" alt="" style="width:100%"></div>
+                    <div class="mySlides fade"><img src="./img/slideshow/7.jpg" alt="" style="width:100%"></div>
+                    <div class="mySlides fade"><img src="./img/slideshow/8.jpg" alt="" style="width:100%"></div>
+                    <div class="mySlides fade"><img src="./img/slideshow/9.jpg" alt="" style="width:100%"></div>
+                    <br>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                        <span class="dot" onclick="currentSlide(8)"></span>
+                        <span class="dot" onclick="currentSlide(9)"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clientes -->
+        <section class="section-clientes">
+            <div class="clientes" id="clientes">
+                <div>
+                    <h2>Clientes</h2>
+                    <p><b>Estas empresas confiaron en mis servicios</b></p>
+                </div>
+                <div class="logos">
+                    <img class="logo" src="./img/logos/farmacia.png" alt="">
+                    <img class="logo" src="./img/logos/granHotel.png.opdownload" alt="">
+                    <img class="logo" src="./img/logos/ferrenet.png" alt="">
+                    <img class="logo" src="./img/logos/revlon.png" alt="">
+                    <img class="logo" src="./img/logos/johnson.png" alt="">
+                    <img class="logo" src="./img/logos/selplast.png" alt="">
+                    <img class="logo" id="vonder" src="./img/logos/vonder.png" alt="">              
+                </div>
+                <div>
+                    <p><b>+200</b></p>
+                    <button id="btn-ver-lista">Ver lista completa</button>
+                </div>
+            </div>
+        </section>
+
+        <div id="wsp-icon">
+            <a href="https://wa.me/543434472104" target="_BLANK"><img src="/img/wspicon.png" alt=""></a>
+        </div>
+        
+    </main>
+    <div class="lista-empresas-container hide">
+        <h2>Lista de <br><strong>Empresas Capacitadas</strong></h2>
+        <input type="text" class="search-bar" placeholder="Ingrese una empresa">
+        <div class="lista-empresas">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima asperiores veniam architecto delectus placeat neque pariatur consequuntur, ipsum veritatis accusantium ullam voluptates sapiente blanditiis nisi, rerum sit autem magni rem ad aliquam modi dolor. Similique, asperiores! Eveniet, debitis cumque provident eius quas consequatur fugiat nulla in ipsa quo repellat dolorem natus repellendus sint magni cupiditate ut eos, modi, tenetur veritatis corporis animi velit dolor ea. Dolor autem, doloribus dignissimos quisquam tempora consequuntur quia cumque vero ratione, illum a eos. Corrupti qui sit commodi minima repellendus delectus porro alias ad repudiandae harum quae natus deserunt temporibus fugiat, quod dicta magnam perspiciatis accusantium minus obcaecati! Numquam inventore atque debitis asperiores earum magni obcaecati impedit rem laudantium. Enim eligendi eveniet, odio itaque saepe minima, maiores dignissimos dolores exercitationem quas, soluta similique obcaecati? Recusandae atque provident vel voluptates omnis! Pariatur nobis vitae est qui doloremque, obcaecati exercitationem tempora soluta facilis iure doloribus quis perferendis fuga, dolor deleniti ut. Velit sapiente illum a, asperiores temporibus voluptate odio alias rerum sint in consequatur dolore minima aperiam maxime sed praesentium dignissimos commodi nulla! Autem aut iusto odio accusamus sed placeat, rem adipisci a magnam cum enim officia corporis nulla, repellat perspiciatis explicabo, accusantium id. Unde ab perferendis sunt amet. Necessitatibus nobis, illum nulla unde aut asperiores amet tenetur repellendus nisi commodi culpa ab dolorem architecto. Modi fuga quia odio maxime, hic, debitis adipisci doloremque, quis facilis ratione nulla cupiditate enim omnis sapiente porro quibusdam aliquid eius suscipit unde id. Doloribus fugiat eveniet minus? Consequuntur provident totam omnis aperiam ab, inventore rem ducimus, deserunt asperiores, ipsam perspiciatis quod! In, quisquam nobis corrupti modi libero laboriosam praesentium velit totam quos dolor ratione magnam a officia ab incidunt voluptatem, ullam ex culpa itaque soluta. Eum, quam, soluta voluptatem consequatur eius placeat libero recusandae dolores ab illo possimus quia doloribus molestias ipsam alias commodi mollitia. Autem, distinctio. Accusantium minima ad amet rerum, porro ab repudiandae ipsum nisi nostrum, veniam deleniti! Iusto modi nesciunt repellendus libero, non eligendi accusantium excepturi fugit possimus labore, nihil ut deleniti impedit quis itaque unde, illum tempore vero pariatur ducimus esse necessitatibus doloremque. Iusto suscipit quidem ipsa minus esse explicabo at eveniet laboriosam animi id. Inventore dolor incidunt ipsum ex quas esse ut, et mollitia dolorum cupiditate, blanditiis magnam dolores ullam corrupti? Totam voluptatem sit officiis quisquam atque, magni veritatis obcaecati assumenda et eos? Animi, amet quam! Molestiae id quo recusandae amet, repellat vero! Qui, quos fuga.</p>
+        </div>        
+    </div>
+    <footer>
+        <a href="#spacer" ><img src="/img/upArrow.png" alt=""></a>
+        <p>Marcelo Michelli Ramos &copy; 2022 | entrenamientoenventas@hotmail.com</p>
+    </footer>
+
+    <script>
+
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2500); // Change image every 2 seconds
+        }    
+
+
+        const containerLista = document.querySelector(".lista-empresas-container");
+        const btnVerLista = document.getElementById("btn-ver-lista");
+
+        /* Si hago click en el boton para ver la lista, esta aparece */
+        btnVerLista.addEventListener("click",()=>{
+            containerLista.classList.remove("hide");
+        });
+
+        /* Si hago click fuera del contenedor de la lista, este desaparece */
+        document.addEventListener('mouseup', function(e){        
+            if (!containerLista.contains(e.target)) {
+                containerLista.classList.add("hide");
+            }
+        });
+        
+        
+      
+    </script>
+    <script src="./nav-mobile.js"></script>
+</body>
+</html>
